@@ -1,0 +1,40 @@
+Assignment 4
+___
+/***************************************************/
+// <author> Haiyu Zhen
+// <UserID> h2zhen
+// <Student Num> 20552637
+// <Email> h2zhen@uwaterloo.ca
+// CS 688: Computer Graphics Assignment 4
+// <date>  Oct. 2014
+/***************************************************/
+
+#1. The final executable was compiled on this machine:
+no special requirement
+
+#2. How to invoke my program: 
+1) ``./rt [lua file]``; without second argument, draw nonhier.lua by default 
+2) draw bounding box: change global boolean variable ``drawBx`` in a4.cpp.
+3) change MAXLEVEL in algebra.hpp to use mirror recursion.
+
+#3. How to use my extra features: 
+I add ``mirror reflection``, by changing MAXLEVEL in algebra.hpp, the maximum recursion depth changes.
+reflectin is turned off by default. After changing the parameter, do not forget to call make for recompilation.
+screenshot02.png shows the reflectin effect of 2 recursions.
+screenshot07.png shows the reflectin effect of 3 recursions.
+
+#4. I have created the following data files, which are in the data directory:
+self.lua & pyramid.lua
+
+#5. Screenshots:
+screenshot01.png shows the scene of nonhier.lua
+screenshot02.png shows the reflectin effect of 2 recursions of nonhier.lua.
+screenshot03.png shows the reflectin effect of 3 recursions of nonhier.lua.
+screenshot04.png shows the scene of hier.lua
+screenshot05.png shows the scene of nonhier2.lua
+screenshot06.png shows the scene of simple-cows.lua
+screenshot07.png shows the scene of macho-cows.lua
+screenshot08.png shows the scene of self.lua (unique scene)
+screenshot09.png shows the bounding box effect of self.lua
+
+
