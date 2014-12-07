@@ -22,3 +22,6 @@ I have created the following data files, which are in the data directory:
 
 
 My program assumes the following: 
+
+
+Running Issue: The program can only runs well on gl23 locally. Otherwise, it would have error: cannot load vertex shader

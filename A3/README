@@ -22,3 +22,8 @@ I have created the following data files, which are in the data directory:
 
 
 My program assumes the following: 
+
+
+After Grading:
+I didn't implement picking, undo/redo stack
+My rotation has problems too

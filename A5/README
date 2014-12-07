@@ -1,0 +1,47 @@
+Assignment 5
+___
+/***************************************************/
+// <author> Haiyu Zhen
+// <UserID> h2zhen
+// <Student Num> 20552637
+// <Email> h2zhen@uwaterloo.ca
+// CS 688: Computer Graphics Assignment 5
+// <date>  Dec. 2014
+/***************************************************/
+
+#1. The final executable was compiled on this machine:
+no special requirement
+
+#2. How to invoke my program: 
+1) ``./rt [lua file]``; without second argument, draw nonhier.lua by default 
+2) draw bounding box: change global boolean variable ``drawBx`` in a4.cpp and ``DRAWHIER`` in algebra.hpp to draw Hierarchical Bounding Boxes.
+3) change MAXLEVEL in algebra.hpp to use mirror recursion.
+4) change thresh in algebra.hpp to use mirror recursion.
+5) change NUM_THREAD in algebra.hpp to use multi threads
+6) change SAMPLE_N in algebra.hpp to use soft shadowing.
+
+#Notice!!!!!!
+If the lua file you use contains other primitives from other lua file, you have to copy both of them to the same folder as the rt executable file. No idea why, maybe about the require command in lua file.
+
+#3. my primitives:
+
+Add additional primitives, e.g. Cylinder, Cone.
+Add Cone Light Source.
+Texture Mapping.
+Bump Mapping.
+Perlin Noise.
+Anti-aliasing by super-sampling.
+Refraction.
+Use multi-thread concurrent flow to imporve the efficiency of ray tracing.
+Use Hierarchical Bounding Boxes to imporve the efficiency of ray tracing.
+A nice scene of a room.
+
+#4. my extra primitives:
+soft shadow
+
+#5. selft data:
+all images that I think interesting are put in A5/img/ folder
+
+
+
+

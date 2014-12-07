@@ -1,0 +1,33 @@
+This is simple palette. User can choose three kinds of shape and four kinds of colour to draw whatever they want.
+There are 4 menus in the menu bar:
+Application, Tools, Colour, Help
+
+In the Application menu, user could choose "Quit" or "Clear".
+In the Tools menu, user could choose 3 shape types:
+    Line
+    Rectangle
+    Oval
+In the Colour menu, user could choose 4 colors:
+    Black
+    Red
+    Green
+    Blue
+In the Help menu, user could find instructions of how to draw each basic shapes.
+
+To clear the palette, user could:
+    click Clear entry in the Application menu
+    use Ctrl+C shortcut
+
+To quit the program, user could:
+    click Quit entry in the Application menu
+    click Quit button at the bottom of the window
+    use Ctrl+Q shortcut
+
+There are also keyboard shortcuts to choose shape:
+    Ctrl+L for Line 
+    Ctrl+R for Rectangle 
+    Ctrl+O for Oval
+Both uppper & lower case letters are accepted.
+
+Now, enjoy the fancy drawing app :)
+
